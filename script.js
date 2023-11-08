@@ -4,7 +4,6 @@ function ordenarNumerosInsertion() {
   const startTime = performance.now();
 
   const input = document.getElementById('numberInput');
-  const numerosSpan = document.getElementById('numerosSpan');
   const ordenadosSpan = document.getElementById('ordenadosSpan');
 
   const inputValues = input.value.trim().split(' ');
